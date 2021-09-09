@@ -16,9 +16,9 @@
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color:rgba(9, 7, 121, 0.8);
+    background-color:rgba(58, 56, 153, 0.8);
   
-
+/* hallo */
     width: 50em;
     height: 32em;
     border-radius: 1rem;
@@ -26,21 +26,21 @@
   }
   
   .grid-item  {
-    background-color: rgba(36, 81, 204, 0.8);
+    background-color: rgba(27, 36, 63, 0.8);
      border: 2px solid rgba(47, 24, 148, 0.8); 
     border-radius: 0 1rem 0rem 1rem;
     text-align: center;
   }
 
   .grid-item-1  {
-    background-color: rgba(72, 88, 163, 0.8);
+    background-color: rgba(27, 33, 56, 0.8);
     border: 2px solid rgba(47, 24, 148, 0.8); 
     border-radius: 0px 0px 100px 100px;
     text-align: center;
   }
 
   .grid-item-2  {
-    background-color: rgba(48, 77, 204, 0.8);
+    background-color: rgba(26, 33, 63, 0.8);
     border: 2px solid rgba(47, 24, 148, 0.8); 
     display: flex;
     justify-content: center;
@@ -49,14 +49,14 @@
   }
 
   .grid-item-3  {
-    background-color: rgba(45, 61, 133, 0.8);
+    background-color: rgba(36, 43, 68, 0.8);
     border: 2px solid rgba(47, 24, 148, 0.8); 
     border-radius: 0rem 0 1rem 0rem;
     text-align: center;
   }
 
   .grid-item-4  {
-    background-color: rgba(28, 66, 172, 0.8);
+    background-color: rgba(33, 40, 56, 0.8);
     border: 2px solid rgba(47, 24, 148, 0.8); 
     border-radius: 1rem 0 1rem 0rem;
     text-align: center;
