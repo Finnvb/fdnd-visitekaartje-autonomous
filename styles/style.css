@@ -18,7 +18,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     background-color:rgba(58, 56, 153, 0.8);
   
-/* hallo */
+
     width: 50em;
     height: 32em;
     border-radius: 1rem;
@@ -128,8 +128,6 @@
   overflow: hidden;
   position: relative;
   border-radius: 3rem; 
-
-
  
 } 
 
@@ -141,25 +139,33 @@
 }
 
 #prevButton{
-  position: absolute;
-  top: 50%;
-   z-index: 10; 
-    left: 5%;  
-  font-size: 25px;
-  color: rgb(0, 0, 0);
-  cursor: pointer;
+   position: absolute; 
+    top: 70%;
+    z-index: 10; 
+    right: 58%;  
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 1.5s;
  
+}
 
+#prevButton:hover{
+  transform: scale(1.2);
 }
 
 #nextButton{
   position: absolute;
-  top: 50%;
+  top: 70%;
   z-index: 10;
-  right: 5%;
+  left: 58%;
   font-size: 25px;
-  color: rgb(0, 0, 0);
- 
+  color: rgb(255, 255, 255);
   cursor: pointer;
+  transition: 1.5s;
 
+}
+
+#nextButton:hover{
+  transform: scale(1.2);
 }
