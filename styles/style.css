@@ -1,160 +1,177 @@
+/* Beautify hotkey: shift + alt + f */
 
-  *{
-    box-sizing: border-box;
- 
+* {
+  box-sizing: border-box;
+
 }
 
-  body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: 'Montserrat', sans-serif;
-   
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color:rgba(58, 56, 153, 0.8);
-  
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgba(58, 56, 153, 0.8);
 
-    width: 50em;
-    height: 32em;
-    border-radius: 1rem;
-    box-shadow: 10px 10px 15px grey;
-  }
-  
-  .grid-item  {
-    background-color: rgba(27, 36, 63, 0.8);
-     border: 2px solid rgba(47, 24, 148, 0.8); 
-    border-radius: 0 1rem 0rem 1rem;
-    text-align: center;
-  }
 
-  .grid-item-1  {
-    background-color: rgba(27, 33, 56, 0.8);
-    border: 2px solid rgba(47, 24, 148, 0.8); 
-    border-radius: 0px 0px 100px 100px;
-    text-align: center;
-  }
+  width: 50em;
+  height: 32em;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 15px grey;
 
-  .grid-item-2  {
-    background-color: rgba(26, 33, 63, 0.8);
-    border: 2px solid rgba(47, 24, 148, 0.8); 
-    display: flex;
-    justify-content: center;
-    border-radius: 1rem 1rem 0 0;
-    text-align: center;
-  }
-
-  .grid-item-3  {
-    background-color: rgba(36, 43, 68, 0.8);
-    border: 2px solid rgba(47, 24, 148, 0.8); 
-    border-radius: 0rem 0 1rem 0rem;
-    text-align: center;
-  }
-
-  .grid-item-4  {
-    background-color: rgba(33, 40, 56, 0.8);
-    border: 2px solid rgba(47, 24, 148, 0.8); 
-    border-radius: 1rem 0 1rem 0rem;
-    text-align: center;
-  }
-  #profielfoto{
-    width: 280px;
-    height: 210px;
-    margin-top: 20px;
-   border-radius: 8rem;
-   border: 4px solid white;
-  
- 
 }
 
 
 
-#naam{
-    font-weight: bold;
-    color: white;
+.grid-item {
+  background-color: #66e5bf;
+  border-right: 3px solid #050542;
+  border-top: 3px solid #050542;
+  border-radius: 0 1rem 0rem 1rem;
+  text-align: center;
 }
 
-.titel{
+.grid-item-1 {
+  background-color: #66e5bf;
+  border-top: 3px solid #050542;
+  border-left: 3px solid #050542;
+  border-right: 3px solid #050542;
+  border-radius: 0px 0px 1rem 1rem;
+  text-align: center;
+}
+
+.grid-item-2 {
+  background-color: #050542;
+  border: 3px solid #66e5bf;
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem 1rem 0 0;
+  text-align: center;
+}
+
+.grid-item-3 {
+  background-color: #050542;
+  border: 3px solid #66e5bf;
+  border-radius: 0rem 1rem 0rem 1rem;
+  text-align: center;
+}
+
+.grid-item-4 {
+  background-color: #66e5bf;
+  border-left: 3px solid #050542;
+  border-top: 3px solid #050542;
+  border-radius: 1rem 0 1rem 0rem;
+  text-align: center;
+}
+
+.grid-item-5 {
+  background-color: #050542;
+  border: 3px solid #66e5bf;
+  border-radius: 1rem 0 1rem 0rem;
+  text-align: center;
+}
+
+#profielfoto {
+  width: 280px;
+  height: 210px;
+  margin-top: 20px;
+  border-radius: 8rem;
+  border: 4px solid #050542;
+
+}
+
+
+
+#naam {
+  font-weight: bold;
+  color: #050542;
+}
+
+.titel {
   background-color: rgb(115, 142, 216);
-    padding: 5px 5px 5px 5px;  
+  padding: 5px 5px 5px 5px;
   border-radius: 20px;
   color: #ffffff;
   margin: 75px 20px 0px 20px;
- 
+
 }
 
 
 
-#textLinks{
+#textLinks {
   font-size: 18px;
-  color: aliceblue;
- text-align: center;
- line-height: 2;
- padding-top: 60px;
+  color: #050542;
+  text-align: center;
+  line-height: 2;
+  padding-top: 60px;
 
 }
 
 
-#textRechts{
+#textRechts {
   font-size: 15px;
-  color: aliceblue;
- text-align: center;
- line-height: 1.6;
-
- padding: 40px 20px 20px 10px;
- text-align: left;
+  color: #050542;
+  text-align: center;
+  line-height: 1.6;
+  padding: 40px 20px 20px 10px;
+  text-align: left;
 
 }
 
 
-#skills{
+#skills {
   font-size: 1em;
-  color: aliceblue;
- text-align: center;
- line-height: 1.5;
- margin-top: 30px;
- 
+  color: #66e5bf;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 30px;
+
 }
 
 
 
-.carousel-container{
+.carousel-container {
 
-    width: 60%;  
+  width: 60%;
   overflow: hidden;
   position: relative;
-  border-radius: 3rem; 
- 
-} 
+  border-radius: 3rem;
 
-.carousel-slide{
-  display:flex;
+
+}
+
+.carousel-slide {
+  display: flex;
   width: 350px;
   height: 200px;
-  
+
 }
 
-#prevButton{
-   position: absolute; 
-    top: 70%;
-    z-index: 10; 
-    right: 58%;  
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    transition: 1.5s;
- 
+#prevButton {
+  position: absolute;
+  top: 70%;
+  z-index: 10;
+  right: 58%;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 1.5s;
+  opacity: 70%;
+
 }
 
-#prevButton:hover{
+#prevButton:hover {
   transform: scale(1.2);
+  opacity: 100%;
 }
 
-#nextButton{
+#nextButton {
   position: absolute;
   top: 70%;
   z-index: 10;
@@ -163,9 +180,11 @@
   color: rgb(255, 255, 255);
   cursor: pointer;
   transition: 1.5s;
+  opacity: 70%;
 
 }
 
-#nextButton:hover{
+#nextButton:hover {
   transform: scale(1.2);
+  opacity: 100%;
 }
