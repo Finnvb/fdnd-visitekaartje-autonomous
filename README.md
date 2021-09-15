@@ -5,7 +5,8 @@
 ## Beschrijving
 https://finnvb.github.io/fdnd-visitekaartje-autonomous/
 
-![Screenshot 2021-09-10 at 11-27-44 Visitekaart Finn van Bekkum](https://user-images.githubusercontent.com/26089533/132832727-8e683ab8-06a9-42ac-82e5-543008b4f1b0.png)
+![Screenshot 2021-09-15 at 11-38-59 Visitekaart Finn van Bekkum](https://user-images.githubusercontent.com/26089533/133420987-57910b6e-3687-4a91-bc96-ab4d2d16953d.png)
+
 
 
 
