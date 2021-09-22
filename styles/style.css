@@ -60,6 +60,7 @@ body {
   border: 3px solid #66e5bf;
   border-radius: 0rem 1rem 0rem 1rem;
   text-align: center;
+  color: white;
 }
 
 .grid-item-4 {
@@ -125,16 +126,28 @@ body {
 }
 
 
-#skills {
+#contact {
   font-size: 1em;
   color: #66e5bf;
-  text-align: center;
-  line-height: 1.5;
-  margin-top: 30px;
+  margin-top: 2em;
 
 }
 
 
+
+#githubButton{
+  font-size: 2em;
+  color: #66e5bf;
+  transition: 1.5s;
+  opacity: 80%;
+}
+
+#githubButton:hover{
+  font-size: 2em;
+  color: #66e5bf;
+  transform: scale(1.2);
+  opacity: 100%;
+}
 
 .carousel-container {
 
