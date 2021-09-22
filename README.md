@@ -3,9 +3,9 @@
 # Visitekaart 
 
 ## Beschrijving
-https://finnvb.github.io/fdnd-visitekaartje-autonomous/
+https://finn.student.fdnd.nl/
 
-![Screenshot 2021-09-15 at 11-38-59 Visitekaart Finn van Bekkum](https://user-images.githubusercontent.com/26089533/133420987-57910b6e-3687-4a91-bc96-ab4d2d16953d.png)
+
 
 
 
