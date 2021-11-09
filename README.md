@@ -1,4 +1,4 @@
-> Fork deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+
 
 # Visitekaart 
 
@@ -11,23 +11,7 @@ https://finn.student.fdnd.nl/
 
 
 
-## Inhoudsopgave
 
-- [Titel](#titel)
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
-
-## Kenmerken
-
-## Installatie
-
-## Gebruik
-
-## Bronnen
 
 ## Licentie
 
