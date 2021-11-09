@@ -17,6 +17,7 @@ Dit is een visitekaartje die ik gemaakt heb voor de opleiding fdnd. Het doel is 
 ## Bronnen
 
 https://fontawesome.com/
+
 https://fonts.google.com/
 
 
